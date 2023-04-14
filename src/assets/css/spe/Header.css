@@ -1,0 +1,32 @@
+header
+{
+    z-index: 5;
+}
+header>div
+{
+    top: 0;
+
+    max-width: 1440px;
+    height: 128px;
+
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background-color: var(--light-color);
+}
+header li>a
+{
+    margin-left: 3vw;
+
+    color: var(--main-color);
+    font-size: var(--font-3);
+    font-weight: 500;
+    text-decoration: none;
+}
+header .active
+{
+    text-decoration: underline !important;
+}

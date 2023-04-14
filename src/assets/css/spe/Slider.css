@@ -1,0 +1,40 @@
+.slider
+{
+    height: 415px;
+
+    margin-bottom: 24px;
+
+    border-radius: 25px;
+}
+.slider .container
+{
+    transition: transform ease-in-out 0.5s;
+}
+.slider img
+{
+    flex-shrink: 0;
+}
+.slider .pre, .slider .after
+{
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.slider .pre
+{
+    left: 23px;
+}
+.slider .after
+{
+    right: 23px;
+}
+.slider .count
+{
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: var(--light-color);
+    font-size: var(--font-4);
+    font-weight: 500;
+}

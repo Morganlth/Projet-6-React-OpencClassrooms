@@ -1,0 +1,15 @@
+.tag
+{
+    min-width: 115px;
+    height: 25px;
+
+    padding: 0 12px;
+
+    background-color: var(--main-color);
+
+    border-radius: 10px;
+
+    color: var(--light-color);
+    font-size: var(--font-5);
+    font-weight: 500;
+}

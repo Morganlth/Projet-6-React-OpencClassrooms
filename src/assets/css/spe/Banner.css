@@ -1,0 +1,21 @@
+.banner
+{
+    height: 223px;
+
+    margin-bottom: 43px;
+
+    border-radius: 25px;
+}
+.banner .shadow
+{
+    background-color: rgba(0, 0, 0, 0.3);
+
+    padding: 16px;
+}
+.banner h1
+{
+    color: var(--light-color);
+    font-size: var(--font-1);
+    font-weight: 500;
+    text-align: center;
+}

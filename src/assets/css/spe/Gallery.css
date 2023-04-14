@@ -1,0 +1,10 @@
+.gallery
+{
+    gap: 60px;
+
+    padding: 56px 50px;
+
+    background-color: var(--bg-color);
+
+    border-radius: 25px;
+}

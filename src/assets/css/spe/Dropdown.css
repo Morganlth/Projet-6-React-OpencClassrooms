@@ -1,0 +1,45 @@
+.dropdown
+{
+    max-width: 1023px;
+    min-height: 47px;
+    height: auto;
+
+    margin: 0 auto 31px;
+}
+.dropdown>div
+{
+    border-radius: 5px;
+}
+.dropdown>div:nth-child(1)
+{
+    height: 47px;
+
+    padding: 0 18px;
+
+    background-color: var(--main-color);
+}
+.dropdown>div:nth-child(2)
+{
+    padding: 74px 18px 19px;
+
+    background-color: var(--bg-color);
+}
+.dropdown h2, .dropdown p
+{
+    font-size: var(--font-3);
+}
+.dropdown h2
+{
+    color: var(--light-color);
+    font-weight: 500;
+}
+.dropdown p
+{
+    color: var(--main-color);
+    font-weight: 400;
+    text-align: left;
+}
+.dropdown .arrow
+{
+    width: 24px;
+}

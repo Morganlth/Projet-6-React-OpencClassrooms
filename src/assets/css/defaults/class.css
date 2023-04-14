@@ -1,0 +1,30 @@
+/*? class : class css du site Kasa */
+
+.hidden { display: none; }
+.block { display: block; }
+.flex { display: flex; }
+
+.f-center { justify-content: center; align-items: center; }
+.f-column { flex-direction: column; }
+.f-j-center { justify-content: center; }
+.f-j-space-between { justify-content: space-between; }
+.f-a-center { align-items: center; }
+.f-wrap { flex-wrap: wrap; }
+
+.absolute { position: absolute; }
+.relative { position: relative; }
+.sticky { position: sticky; }
+
+.start-pos { top: 0; left: 0; }
+
+.o-hidden { overflow: hidden; }
+
+.any-w { width: 100%; }
+.any-h { height: 100%; }
+
+.fit-cover-center { object-fit: cover; object-position: center; }
+
+.pointer {cursor: pointer; }
+
+.no-event { pointer-events: none; }
+.auto-event { pointer-events: auto; }

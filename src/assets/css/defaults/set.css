@@ -1,0 +1,37 @@
+/*? set : definit les valeurs par défaut du site Kasa */
+
+@font-face
+{
+    font-family: "Montserrat";
+    src: url('../../font/Montserrat/Montserrat-VariableFont_wght.ttf') format("ttf");
+}
+
+:root
+{
+    --main-color: #FF6060;
+    --light-color: #fff;
+    --dark-color: #000;
+    --bg-color: #F7F7F7;
+
+    --font-0: 28.8rem;
+    --font-1: 4.8rem;
+    --font-2: 3.6rem;
+    --font-3: 2.4rem; 
+    --font-4: 1.8rem;
+    --font-5: 1.4rem; 
+}
+
+#root { font-family: 'Montserrat'; }
+
+html { font-size: 62.5%; }
+
+* { box-sizing: border-box; }
+
+body { overflow-x: hidden; }
+
+li { list-style: none; }
+
+/*? reset */
+
+h1, h2, ul, p { margin: 0; }
+ul { padding: 0; }

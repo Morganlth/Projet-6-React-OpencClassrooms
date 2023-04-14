@@ -1,0 +1,45 @@
+.housing .right
+{
+    align-items: flex-end;
+}
+.housing h1, .housing p
+{
+    color: var(--main-color);
+    font-weight: 500;
+    text-align: left;
+}
+.housing h1
+{
+    font-size: var(--font-2);
+}
+.housing p
+{
+    font-size: var(--font-4);
+}
+.housing .author p
+{
+    margin-right: 10px;
+
+    text-align: right;
+}
+.housing .author img
+{
+    width: 64px;
+    height: 64px;
+
+    background-color: var(--bg-color);
+
+    border-radius: 50%;
+}
+.housing .tags-list
+{
+    gap: 10px;
+
+    margin-top: 20px;
+}
+.housing .description
+{
+    gap: 4vw;
+
+    margin-top: 24px;
+}

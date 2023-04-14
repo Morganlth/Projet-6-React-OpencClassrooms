@@ -1,0 +1,192 @@
+/*? media : media queries du site Kasa */
+
+@media (max-width: 1040px)
+{
+    html { font-size: 50% !important; }
+
+    header>div, main
+    {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .gallery
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .card
+    {
+        width: 335px !important;
+        height: 335px !important;
+    }
+}
+
+@media (max-width: 870px)
+{
+    html { font-size: 37.5% !important; }
+
+    header .logo
+    {
+        width: 145px !important;
+        height: 47px !important;
+    }
+
+    .gallery
+    {
+        gap: 20px !important;
+
+        padding: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .housing .infos
+    {
+        flex-direction: column !important;
+    }
+    .housing .right
+    {
+        flex-direction: row-reverse !important;
+        align-items: center !important;
+    }
+    .housing .author img
+    {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .star
+    {
+        width: 18px !important;
+        height: 18px !important;
+
+        margin-left: 0 !important;
+        margin-right: 7px !important;
+    }
+}
+
+@media (max-width: 425px)
+{
+    html { font-size: 31.25% !important; }
+
+    header>div
+    {
+        height: 83px !important;
+
+        padding-top: 20px !important;
+        padding-bottom: 16px !important;
+    }
+
+    main
+    {
+        padding-top: 94px !important;
+    }
+
+    .banner
+    {
+        height: 111px !important;
+
+        margin-bottom: 22px !important;
+    }
+    .banner h1 span
+    {
+        display: block !important;
+        
+        text-align: left !important;
+    }
+
+    .card
+    {
+        width: 100% !important;
+        height: 255px !important;
+    }
+
+    .dropdown
+    {
+        min-height: 30px !important;
+    
+        margin-bottom: 20px !important;
+    }
+    .dropdown>div:nth-child(1)
+    {
+        height: 30px !important;
+    }
+    .dropdown>div:nth-child(2)
+    {
+        padding-top: 44px !important;
+    }
+    .dropdown .arrow
+    {
+        width: 16px !important;
+    }
+
+    .slider
+    {
+        height: 255px !important;
+    
+        margin-bottom: 15px !important;
+
+        border-radius: 10px !important;
+    }
+    .slider .pre, .slider .after
+    {
+        width: 12px !important;
+        height: 20px !important;
+    }
+    .slider .count
+    {
+        display: none !important;
+    }
+
+    .housing .author img
+    {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .housing .tags-list
+    {
+        margin-top: 10px !important;
+        margin-bottom: 16px !important;
+    }
+    .housing .description
+    {
+        flex-direction: column !important;
+
+        gap: 0 !important;
+
+        margin-top: 16px !important;
+    }
+
+    .tag
+    {
+        min-width: 84px !important;
+        height: 16px !important;
+    }
+    .star
+    {
+        width: 13px !important;
+        height: 13px !important;
+    }
+
+    footer
+    {
+        justify-content: center !important;
+
+        padding-bottom: 0 !important;
+    }
+
+    .error-404
+    {
+        margin-top: 100px !important;
+    }
+    .error-404 h1
+    {
+        font-size: 96px !important;
+    }
+    .error-404 a
+    {
+        margin-top: 133px !important;
+    }
+}
